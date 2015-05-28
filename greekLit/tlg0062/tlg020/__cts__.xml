@@ -2,9 +2,8 @@
             <ti:title xml:lang="en">Prometheus</ti:title>
             <ti:edition projid="greekLit:perseus-grc1">
                 <ti:label xml:lang="en">Prometheus</ti:label>
-                <ti:description xml:lang="eng">Perseus:bib:oclc,, Lucian. ed. A. M. Harmon, Works.
-                    Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</ti:description>
+                <ti:description xml:lang="eng">Perseus:bib:oclc,, Lucian. ed. A. M. Harmon,
+                    Works. Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</ti:description>
                 </ti:edition>
-        <ti:title xml:lang="eng">Prometheus</ti:title>
-            </ti:work>
-        
+        </ti:work>
+    

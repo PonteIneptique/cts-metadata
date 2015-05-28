@@ -2,9 +2,7 @@
             <ti:title xml:lang="en">Apology</ti:title>
             <ti:edition projid="greekLit:perseus-grc1">
                 <ti:label xml:lang="en">Apology</ti:label>
-                <ti:description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X,
-                    Xenophon. Xenophontis opera omnia, vol. 2, 2nd ed. Oxford, Clarendon Press. 1921
-                    (repr. 1971).</ti:description>
+                <ti:description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 2, 2nd ed. Oxford, Clarendon Press. 1921 (repr. 1971).</ti:description>
                 </ti:edition>
         </ti:work>
         

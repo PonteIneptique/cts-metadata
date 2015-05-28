@@ -2,8 +2,7 @@
             <ti:title xml:lang="en">Symposium</ti:title>
             <ti:edition projid="greekLit:perseus-grc1">
                 <ti:label xml:lang="en">Symposium</ti:label>
-                <ti:description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed.
-                    John Burnet. Oxford University Press. 1903.</ti:description>
+                <ti:description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</ti:description>
                 </ti:edition>
         <ti:title xml:lang="eng">Symposium</ti:title>
       <ti:translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0059.tlg011.perseus-eng1" xml:lang="eng">

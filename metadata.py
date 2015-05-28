@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 from copy import deepcopy
 import sys
-baseDir = "../CTS_XML_TEI/perseus" # For Test purpose, leave it blank
+baseDir = "../canonical/CTS_XML_TEI/perseus" # For Test purpose, leave it blank
 cts5NS = b"http://chs.harvard.edu/xmlns/cts"
 cts3NS = b"http://chs.harvard.edu/xmlns/cts3/ti"
 ET.register_namespace("", "http://www.tei-c.org/ns/1.0")
@@ -70,6 +70,7 @@ for textgroup in textgroups:
             filename = str(versionUrn + ".xml").split(":")[-1]
 
             path = "/".join([baseDir, ns, tg, w, filename] )
+            print(path)
 
             citations = text.findall(".//{http://chs.harvard.edu/xmlns/cts3/ti}citation")
             refs = {}
@@ -147,6 +148,7 @@ for textgroup in textgroups:
                     cRefPattern.append(p)
                     refsDecl.append(cRefPattern)
                 
+                print(ET.tostring(refsDecl))
                 f.close()
                 """
                 Instead of writing, do a csv separated by tabs or so with the position of the file...

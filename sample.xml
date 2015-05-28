@@ -20,6 +20,52 @@
     </ns0:textgroup>
 
     
+    <ns0:textgroup projid="latinLit:phi1276">
+        <ns0:groupname xml:lang="eng">Juvenal</ns0:groupname>
+        <ns0:work projid="latinLit:phi001">
+            <ns0:title xml:lang="eng">Satires</ns0:title>
+            <ns0:edition projid="latinLit:perseus-lat1">
+                <ns0:label xml:lang="eng">Satires</ns0:label>
+                <ns0:description xml:lang="eng">
+                    Juvenal and Persius: With An English Translation, G. G. Ramsay, 1918, William Heinemann; G. P. Putnam's Son, London
+                </ns0:description>
+                <ns0:online docname="/db/repository/latinLit/phi1276/phi001/phi1276.phi001.perseus-lat1.xml">
+                    <ns0:validate schema="tei-xl.rng" />
+                    <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+                    <ns0:citationMapping>
+                        <ns0:citation label="book" scope="/tei:TEI/tei:text/tei:body/tei:div" xpath="/tei:div1[@n='?']">
+                            <ns0:citation label="poem" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']" xpath="/tei:div2[@n='?']">
+                                <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']" xpath="/tei:l[@n='?']" />
+                            </ns0:citation>
+                        </ns0:citation>
+                    </ns0:citationMapping>
+                </ns0:online>
+            </ns0:edition>
+        </ns0:work>
+    </ns0:textgroup>
+    <ns0:textgroup projid="latinLit:phi1294">
+        <ns0:groupname xml:lang="eng">Martial</ns0:groupname>
+        <ns0:work projid="latinLit:phi002">
+            <ns0:title xml:lang="eng">Epigrammata</ns0:title>
+            <ns0:edition projid="latinLit:perseus-lat1">
+                <ns0:label xml:lang="eng">Epigrammata</ns0:label>
+                <ns0:description xml:lang="eng">
+                    M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus
+                </ns0:description>
+                <ns0:online docname="/db/repository/latinLit/phi1294/phi002/phi1294.phi002.perseus-lat1.xml">
+                    <ns0:validate schema="tei-xl.rng" />
+                    <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+                    <ns0:citationMapping>
+                        <ns0:citation label="book" scope="/tei:TEI/tei:text/tei:body/tei:div" xpath="/tei:div1[@n='?']">
+                            <ns0:citation label="poem" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']" xpath="/tei:div2[@n='?']">
+                                <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']" xpath="/tei:l[@n='?']" />
+                            </ns0:citation>
+                        </ns0:citation>
+                    </ns0:citationMapping>
+                </ns0:online>
+            </ns0:edition>
+        </ns0:work>
+    </ns0:textgroup>
     <ns0:textgroup projid="greekLit:tlg0008">
         <ns0:groupname xml:lang="eng">Athenaeus</ns0:groupname>
         <ns0:work projid="greekLit:tlg001">
@@ -1985,6 +2031,88 @@
   </ns0:textgroup>
     <ns0:textgroup projid="latinLit:phi0959" urn="urn:cts:latinLit:phi0959">
         <ns0:groupname xml:lang="eng">Ovid</ns0:groupname>
+        <ns0:work projid="latinLit:phi001" urn="urn:cts:latinLit:phi0959.phi001" xml:lang="lat">
+            <ns0:title xml:lang="eng">Amores</ns0:title>
+            <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi001.perseus-lat1">
+                <ns0:label xml:lang="eng">Amores</ns0:label>
+                <ns0:description xml:lang="eng">
+                    Amores, Epistulae, Medicamina faciei femineae, Ars amatoria, Remedia
+                            amoris, R. Ehwald, edidit ex Rudolphi Merkelii recognitione, Leipzig, B. G. Teubner, 1907
+                </ns0:description>
+                <ns0:online docname="/db/repository/latinLit/phi0959/phi001/phi0959.phi001.perseus-lat1.xml">
+                    <ns0:validate schema="teia.xsd" />
+                    <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+                    <ns0:citationMapping>
+                        <ns0:citation label="book" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" xpath="/tei:div[@n='?']">
+                            <ns0:citation label="poem" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/div[@n='?']" xpath="/tei:div[@n='?']">
+                                <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']" xpath="//tei:l[@n='?']" />
+                            </ns0:citation>
+                        </ns0:citation>
+                    </ns0:citationMapping>
+                </ns0:online>
+                <ns0:memberof collection="Perseus:collection:Greco-Roman" />
+            </ns0:edition>
+        </ns0:work>
+        <ns0:work groupUrn="urn:cts:latinLit:phi0959" projid="latinLit:phi002" urn="urn:cts:latinLit:phi0959.phi002" xml:lang="lat">
+          <ns0:title xml:lang="eng">Epistulae</ns0:title>
+          <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi002.perseus-lat1" workUrn="urn:cts:latinLit:phi0959.phi002" xml:lang="lat">
+            <ns0:label xml:lang="eng">Epistulae</ns0:label>
+            <ns0:online docname="/db/repository/latinLit/phi0959/phi002/perseus-lat1.xml">
+              <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+              <ns0:citationMapping>
+                  <ns0:citation label="poem" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" xpath="/tei:div[@n='?']">
+                    <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']" xpath="//tei:l[@n='?']" />
+                  </ns0:citation>
+              </ns0:citationMapping>
+            </ns0:online>
+          </ns0:edition>
+        </ns0:work>
+        <ns0:work groupUrn="urn:cts:latinLit:phi0959" projid="latinLit:phi003" urn="urn:cts:latinLit:phi0959.phi003" xml:lang="lat">
+          <ns0:title xml:lang="eng">Art of Beauty</ns0:title>
+          <ns0:title xml:lang="fre">Les Fards ou Soins du visage</ns0:title>
+          <ns0:title xml:lang="lat">Medicamina faciei femineae</ns0:title>
+          <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi003.perseus-lat1" workUrn="urn:cts:latinLit:phi0959.phi003" xml:lang="lat">
+            <ns0:label xml:lang="eng">Art of Beauty</ns0:label>
+            <ns0:online docname="/db/repository/latinLit/phi0959/phi003/perseus-lat1.xml">
+              <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+              <ns0:citationMapping>
+                  <ns0:citation label="poem" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" xpath="/tei:div[@n='?']">
+                    <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']" xpath="//tei:l[@n='?']" />
+                  </ns0:citation>
+              </ns0:citationMapping>
+            </ns0:online>
+          </ns0:edition>
+        </ns0:work>
+        <ns0:work groupUrn="urn:cts:latinLit:phi0959" projid="latinLit:phi004" urn="urn:cts:latinLit:phi0959.phi004" xml:lang="lat">
+          <ns0:title xml:lang="eng">Art of Love</ns0:title>
+          <ns0:title xml:lang="fre">L'Art d'Aimer</ns0:title>
+          <ns0:title xml:lang="lat">Ars Amatoria</ns0:title>
+          <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi004.perseus-lat1" workUrn="urn:cts:latinLit:phi0959.phi004" xml:lang="lat">
+            <ns0:label xml:lang="eng">Art of Love</ns0:label>
+            <ns0:online docname="/db/repository/latinLit/phi0959/phi004/perseus-lat1.xml">
+              <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+              <ns0:citationMapping>
+                  <ns0:citation label="book" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" xpath="/tei:div[@n='?']">
+                    <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']" xpath="//tei:l[@n='?']" />
+                  </ns0:citation>
+              </ns0:citationMapping>
+            </ns0:online>
+          </ns0:edition>
+        </ns0:work>
+        <ns0:work groupUrn="urn:cts:latinLit:phi0959" projid="latinLit:phi005" urn="urn:cts:latinLit:phi0959.phi005" xml:lang="lat">
+          <ns0:title xml:lang="eng">Remedy of Love</ns0:title>
+          <ns0:title xml:lang="fre">Rem&#232;de &#224; l'amoru</ns0:title>
+          <ns0:title xml:lang="lat">Remedia amoris</ns0:title>
+          <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi005.perseus-lat1" workUrn="urn:cts:latinLit:phi0959.phi005" xml:lang="lat">
+            <ns0:label xml:lang="eng">Remedy of Love</ns0:label>
+            <ns0:online docname="/db/repository/latinLit/phi0959/phi005/perseus-lat1.xml">
+              <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+              <ns0:citationMapping>
+                <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" xpath="//tei:l[@n='?']" />
+              </ns0:citationMapping>
+            </ns0:online>
+          </ns0:edition>
+        </ns0:work>
         <ns0:work projid="latinLit:phi006" urn="urn:cts:latinLit:phi0959.phi006" xml:lang="lat">
             <ns0:title xml:lang="eng">Metamorphoses</ns0:title>
             <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi006.perseus-lat1">
@@ -1995,8 +2123,8 @@
                     <ns0:validate schema="teia.xsd" />
                     <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
                     <ns0:citationMapping>
-                        <ns0:citation label="book" scope="/TEI.2/text/body" xpath="/div1[@n='?']">
-                            <ns0:citation label="line" scope="/TEI.2/text/body/div1[@n='?']" xpath="/l[@n='?']" />
+                        <ns0:citation labMeel="book" scope="/TEI/text/body" xpath="/div[@n='?']">
+                            <ns0:citation label="line" scope="/TEI/text/body/div[@n='?']" xpath="/l[@n='?']" />
                         </ns0:citation>
                     </ns0:citationMapping>
                 </ns0:online>
@@ -2018,6 +2146,72 @@
         <ns0:memberof collection="Perseus:collection:Greco-Roman" />
       </ns0:translation>
     </ns0:work>
+        <ns0:work groupUrn="urn:cts:latinLit:phi0959" projid="latinLit:phi007" urn="urn:cts:latinLit:phi0959.phi007" xml:lang="lat">
+          <ns0:title xml:lang="eng">Book of Days</ns0:title>
+          <ns0:title xml:lang="fre">Fastes</ns0:title>
+          <ns0:title xml:lang="lat">Fasti</ns0:title>
+          <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi007.perseus-lat1" workUrn="urn:cts:latinLit:phi0959.phi007" xml:lang="lat">
+            <ns0:label xml:lang="eng">Book of Days</ns0:label>
+            <ns0:online docname="/db/repository/latinLit/phi0959/phi007/perseus-lat1.xml">
+              <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+              <ns0:citationMapping>
+                  <ns0:citation label="book" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" xpath="/tei:div[@n='?']">
+                    <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']" xpath="//tei:l[@n='?']" />
+                  </ns0:citation>
+              </ns0:citationMapping>
+            </ns0:online>
+          </ns0:edition>
+        </ns0:work>
+        <ns0:work groupUrn="urn:cts:latinLit:phi0959" projid="latinLit:phi008" urn="urn:cts:latinLit:phi0959.phi008" xml:lang="lat">
+          <ns0:title xml:lang="eng">Sorrows</ns0:title>
+          <ns0:title xml:lang="fre">Tristes</ns0:title>
+          <ns0:title xml:lang="lat">Tristia</ns0:title>
+          <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi008.perseus-lat1" workUrn="urn:cts:latinLit:phi0959.phi008" xml:lang="lat">
+            <ns0:label xml:lang="eng">Tristia</ns0:label>
+            <ns0:online docname="/db/repository/latinLit/phi0959/phi008/perseus-lat1.xml">
+              <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+              <ns0:citationMapping>
+                  <ns0:citation label="book" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" xpath="/tei:div[@n='?']">
+                    <ns0:citation label="poem" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']" xpath="/tei:div[@n='?']">
+                      <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']" xpath="//tei:l[@n='?']" />
+                    </ns0:citation>
+                  </ns0:citation>
+              </ns0:citationMapping>
+            </ns0:online>
+          </ns0:edition>
+        </ns0:work>
+        <ns0:work groupUrn="urn:cts:latinLit:phi0959" projid="latinLit:phi009" urn="urn:cts:latinLit:phi0959.phi009" xml:lang="lat">
+          <ns0:title xml:lang="eng">Letters from the Black Sea</ns0:title>
+          <ns0:title xml:lang="fre">Pontiques</ns0:title>
+          <ns0:title xml:lang="lat">Ex Ponto</ns0:title>
+          <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi009.perseus-lat1" workUrn="urn:cts:latinLit:phi0959.phi009" xml:lang="lat">
+            <ns0:label xml:lang="eng">Ex Ponto</ns0:label>
+            <ns0:online docname="/db/repository/latinLit/phi0959/phi009/perseus-lat1.xml">
+              <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+              <ns0:citationMapping>
+                  <ns0:citation label="book" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" xpath="/tei:div[@n='?']">
+                    <ns0:citation label="poem" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']" xpath="/tei:div[@n='?']">
+                      <ns0:citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']" xpath="//tei:l[@n='?']" />
+                    </ns0:citation>
+                  </ns0:citation>
+              </ns0:citationMapping>
+            </ns0:online>
+          </ns0:edition>
+        </ns0:work>
+        <ns0:work groupUrn="urn:cts:latinLit:phi0959" projid="latinLit:phi010" urn="urn:cts:latinLit:phi0959.phi010" xml:lang="lat">
+          <ns0:title xml:lang="eng">Ibis</ns0:title>
+          <ns0:title xml:lang="fre">Ibis</ns0:title>
+          <ns0:title xml:lang="lat">Ibis</ns0:title>
+          <ns0:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi010.perseus-lat1" workUrn="urn:cts:latinLit:phi0959.phi010" xml:lang="lat">
+            <ns0:label xml:lang="eng">Ibis</ns0:label>
+            <ns0:online docname="/db/repository/latinLit/phi0959/phi010/perseus-lat1.xml">
+              <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
+              <ns0:citationMapping>
+                 <ns0:citation label="line" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']" xpath="//tei:l[@n='?']" />
+              </ns0:citationMapping>
+            </ns0:online>
+          </ns0:edition>
+        </ns0:work>
     <ns0:groupname>Ovid</ns0:groupname>
     </ns0:textgroup>
     <ns0:textgroup projid="latinLit:phi0917" urn="urn:cts:latinLit:phi0917">

@@ -2,10 +2,8 @@
             <ti:title xml:lang="en">Cyclops</ti:title>
             <ti:edition projid="greekLit:perseus-grc1">
                 <ti:label xml:lang="en">Cyclops</ti:label>
-                <ti:description xml:lang="eng">Perseus:bib:oclc,34837302, Perseus:bib:isbn,0674995600,
-                    Euripides. Euripides, with an English translation by David Kovacs. Cambridge.
-                    Harvard University Press. forthcoming.</ti:description>
+                <ti:description xml:lang="eng">Perseus:bib:oclc,34837302, Perseus:bib:isbn,0674995600, Euripides. Euripides, with an English translation by David Kovacs. Cambridge. Harvard University Press. forthcoming.</ti:description>
                 </ti:edition>
-        <ti:title xml:lang="eng">Cyclops</ti:title>
-            </ti:work>
+        </ti:work>
         
+    

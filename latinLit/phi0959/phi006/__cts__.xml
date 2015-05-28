@@ -2,8 +2,7 @@
             <ti:title xml:lang="eng">Metamorphoses</ti:title>
             <ti:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi006.perseus-lat1">
                 <ti:label xml:lang="eng">Metamorphoses</ti:label>
-                <ti:description xml:lang="eng">Perseus:bib:oclc,32116154, Ovid. Metamorphoses. Hugo
-                    Magnus. Gotha (Germany). Friedr. Andr. Perthes. 1892.</ti:description>
+                <ti:description xml:lang="eng">Perseus:bib:oclc,32116154, Ovid. Metamorphoses. Hugo Magnus. Gotha (Germany). Friedr. Andr. Perthes. 1892.</ti:description>
                 <ti:memberof collection="Perseus:collection:Greco-Roman" />
             </ti:edition>
         <ti:translation projid="latinLit:perseus-eng1" urn="urn:cts:latinLit:phi0959.phi006.perseus-eng1" xml:lang="eng">
