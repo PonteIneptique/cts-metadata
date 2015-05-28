@@ -2123,7 +2123,7 @@
                     <ns0:validate schema="teia.xsd" />
                     <ns0:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0" />
                     <ns0:citationMapping>
-                        <ns0:citation labMeel="book" scope="/TEI/text/body" xpath="/div[@n='?']">
+                        <ns0:citation label="book" scope="/TEI/text/body" xpath="/div[@n='?']">
                             <ns0:citation label="line" scope="/TEI/text/body/div[@n='?']" xpath="/l[@n='?']" />
                         </ns0:citation>
                     </ns0:citationMapping>
@@ -3052,9 +3052,9 @@
       </ns0:translation>
     </ns0:work>
   </ns0:textgroup>
-  <ns0:textgroup>
+  <ns0:textgroup projid="greekLit:tlg0010">
     <ns0:groupname xml:lang="eng">Isocrates</ns0:groupname>
-    <ns0:work projid="greekLit:tlg0010" urn="urn:cts:greekLit:phi0010.tlg001">
+    <ns0:work projid="greekLit:tlg001" urn="urn:cts:greekLit:phi0010.tlg001">
       <ns0:title xml:lang="eng">Against Euthynus</ns0:title>
       <ns0:edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0010.tlg001.perseus-grc1">
         <ns0:label xml:lang="eng">Against Euthynus</ns0:label>

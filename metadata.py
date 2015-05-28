@@ -42,6 +42,7 @@ def createMetadata(path, node, exclude=[]):
         f.close()
     return True
 
+toCsv = []
 
 inventory = ET.parse("sample.xml")
 textgroups = inventory.findall(".//{http://chs.harvard.edu/xmlns/cts3/ti}textgroup")
@@ -148,7 +149,7 @@ for textgroup in textgroups:
                     cRefPattern.append(p)
                     refsDecl.append(cRefPattern)
                 
-                print(ET.tostring(refsDecl))
+                toCsv.append(("/".join([ns, tg, w, filename] ), str(ET.tostring(refsDecl))))
                 f.close()
                 """
                 Instead of writing, do a csv separated by tabs or so with the position of the file...
@@ -175,6 +176,9 @@ for textgroup in textgroups:
         #    print(ET.tostring(edition))
         # And now the modifications should take place in the file
         # 
+with open("refsDecl.csv", "w") as f:
+    f.write("\n".join(["\t".join(l) for l in toCsv]))
+    f.close()
 with open("error.txt", "w") as f:
     f.write("\n".join(missingFiles))
     f.close()

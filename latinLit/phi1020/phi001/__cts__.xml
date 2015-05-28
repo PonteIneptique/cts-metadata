@@ -2,7 +2,9 @@
             <ti:title xml:lang="eng">Thebais</ti:title>
             <ti:edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1020.phi001.perseus-lat2">
                 <ti:label xml:lang="eng">Thebais</ti:label>
-                <ti:description xml:lang="eng">Statius, P. Papinius. Statius, Vol I-II. John Henry Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928. OCR.</ti:description>
+                <ti:description xml:lang="eng">Statius, P. Papinius. Statius, Vol I-II. John Henry
+                    Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928.
+                    OCR.</ti:description>
                 <ti:memberof collection="Perseus:collection:Greco-Roman" />
             </ti:edition>
         </ti:work>
