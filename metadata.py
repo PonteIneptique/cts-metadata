@@ -6,7 +6,7 @@ baseDir = "../canonical/CTS_XML_TEI/perseus" # For Test purpose, leave it blank
 cts5NS = b"http://chs.harvard.edu/xmlns/cts"
 cts3NS = b"http://chs.harvard.edu/xmlns/cts3/ti"
 ET.register_namespace("", "http://www.tei-c.org/ns/1.0")
-
+output = "data/"
 missingFiles = []
 
 
@@ -23,12 +23,13 @@ def copy_tree( tree_root ):
 
 def cdir(path):
     try:
-        os.makedirs("/".join(path))
+        os.makedirs("/".join( [output] + path))
     except Exception as E:
         return True 
         print(E)
 
 def createMetadata(path, node, exclude=[]):
+    path = ["canonical-" + path[0], "data"] + path[1:]
     cdir(path)
     root = copy_tree(node)
     nodes = root.findall("./*")
@@ -62,7 +63,11 @@ for textgroup in textgroups:
         # Remove online in deep copy
         work2 = deepcopy(work)
         for text in work2.findall(".//{http://chs.harvard.edu/xmlns/cts3/ti}edition") + work2.findall(".//{http://chs.harvard.edu/xmlns/cts3/ti}translation"):
+            v = text.get("projid").split(":")[1]
+            versionUrn = workUrn + "." + v
             text.remove(text.find("./{http://chs.harvard.edu/xmlns/cts3/ti}online"))
+            text.set("workUrn", workUrn)
+            text.set("urn", versionUrn)
         createMetadata([ns, tg, w], work2, [])
 
         for text in work.findall(".//{http://chs.harvard.edu/xmlns/cts3/ti}edition") + work.findall(".//{http://chs.harvard.edu/xmlns/cts3/ti}translation"):
@@ -151,24 +156,6 @@ for textgroup in textgroups:
                 
                 toCsv.append(("/".join([ns, tg, w, filename]), ET.tostring(refsDecl)))
                 f.close()
-                """
-                Instead of writing, do a csv separated by tabs or so with the position of the file...
-
-                teiNSClean = teiNS.replace("{", "").replace("}", "")
-                if len(teiNSClean) > 0:
-                    remove_namespace(xml)
-                roottag = xml.getroot().tag
-                with open(path, "wb") as f:
-                    xml.write(f, encoding="utf-8", xml_declaration=True)
-                    f.close()
-
-                txt = open(path).read()
-                roottag = "<"+roottag
-                place = txt.find(roottag)
-                with open(path, "w") as f:
-                    f.write(txt[:place + len(roottag)] + " xmlns=\"http://www.tei-c.org/ns/1.0\" " + txt[place + len(roottag):])
-                    f.close()
-                """
 
                 # And no we add back the tag
                 

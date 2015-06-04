@@ -15,6 +15,8 @@ ParseError	../canonical/CTS_XML_TEI/perseus/greekLit/tlg0007/tlg092/tlg0007.tlg0
 ParseError	../canonical/CTS_XML_TEI/perseus/latinLit/phi0690/phi003/phi0690.phi003.perseus-lat1.xml
 ParseError	../canonical/CTS_XML_TEI/perseus/latinLit/phi0690/phi003/phi0690.phi003.perseus-lat1.xml
 FileNotFoundError	../canonical/CTS_XML_TEI/perseus/latinLit/phi0690/phi003/phi0690.phi003.perseus-eng1.xml
+ParseError	../canonical/CTS_XML_TEI/perseus/latinLit/phi0959/phi002/phi0959.phi002.perseus-lat2.xml
+ParseError	../canonical/CTS_XML_TEI/perseus/latinLit/phi0959/phi006/phi0959.phi006.perseus-lat1.xml
 ParseError	../canonical/CTS_XML_TEI/perseus/latinLit/phi0959/phi006/phi0959.phi006.perseus-eng1.xml
 ParseError	../canonical/CTS_XML_TEI/perseus/latinLit/phi0917/phi001/phi0917.phi001.perseus-lat1.xml
 FileNotFoundError	../canonical/CTS_XML_TEI/perseus/latinLit/phi1221/phi007/phi1221.phi007.perseus-lat1.xml
